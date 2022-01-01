@@ -5,8 +5,16 @@ Radicale is the only easy-to-use local CalDAV/CardDAV (Calendars and Contacts) s
 
 ## Compile
 
+1. Install Python [v3.9.9](https://www.python.org/downloads/release/python-399/), making sure to add it to PATH
+2. Make a Python virtual environment `python3 -m venv Radicale-v2.1.12` or `Radicale-v3.1.0` ("Radicale" will be used henceforth)
+3. Activate the virtual environment 
+4. Install Radicale of the appropriate version via
+5. Install recommended dependencies
+6. (or just use the provided [requirements.txt]() to download and install everything in one go
+7. 
+
 ## Sources
-- Radicale [for Win10](https://radicale.org/v3.html) / [for Win7](https://radicale.org/v2.html)
+- Radicale [v3.1.0 for Win10](https://radicale.org/v3.html) / [v2.1.12 for Win7](https://radicale.org/v2.html)
 - InfCloud Web Interface for Radicale ([Homepage](https://www.inf-it.com/open-source/clients/infcloud/), [GitHub](https://github.com/Unrud/RadicaleInfCloud))
 - [Tutorial for how to use Radicale with iOS](https://jeffhoadley.com/2020/10/26/radicale-server-in-windows/) ([Archive.today](https://archive.ph/Bud5Q), [Archive.org](https://web.archive.org/web/20210816093906/https://jeffhoadley.com/2020/10/26/radicale-server-in-windows/))
 - [Workaround for iOS bug - iOS requires CalDAV/CardDAV servers to run on port 443 or 80](http://www.carddavserver.com/connecting/ios/) ([Archive.org](https://web.archive.org/web/20170427045958/http://www.carddavserver.com/connecting/ios/), [Archive.today](https://archive.ph/CQ158))
